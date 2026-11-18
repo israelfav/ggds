@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Great Grace Digital Solutions | Printing, Design &amp; Computer Services in Oyo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#ecebe7;--paper2:#e0ded8;--ink:#0e0e0e;--red:#e60012;--mute:#5a5853;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#161514;--paper2:#22211f;--ink:#ecebe7;--red:#ff2a38;--mute:#a09d96}}
+:root[data-theme="dark"]{--paper:#161514;--paper2:#22211f;--ink:#ecebe7;--red:#ff2a38;--mute:#a09d96}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.55 "Archivo",system-ui,sans-serif;overflow-x:hidden}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.5;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .28 0 0 0 0 .25 0 0 0 .18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body::after{mix-blend-mode:screen;opacity:.2}}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Archivo Black","Archivo",sans-serif;font-weight:400;letter-spacing:-.025em;line-height:.95;margin:0}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--paper);border-bottom:2px solid var(--ink)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;height:60px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:"Archivo Black";font-size:15px;line-height:1}
+.seal{width:38px;height:38px;background:var(--red);color:#fff;display:grid;place-items:center;font-family:"Archivo Black";font-size:16px;border-radius:3px;transform:rotate(-4deg);box-shadow:inset 0 0 0 2px rgba(255,255,255,.35)}
+nav{display:flex;gap:22px;font-weight:700;font-size:15px}
+nav a{text-decoration:none;position:relative}
+nav a::after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:3px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .25s}
+nav a:hover::after{transform:scaleX(1)}
+@media(max-width:860px){nav{display:none}}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 24px;font:700 16px "Archivo";text-decoration:none;background:var(--red);color:#fff;border:2px solid var(--ink);border-radius:2px;box-shadow:5px 5px 0 var(--ink);transition:transform .12s,box-shadow .12s;cursor:pointer;min-height:48px}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:7px 7px 0 var(--ink)}
+.btn:active{transform:translate(5px,5px);box-shadow:0 0 0 var(--ink)}
+.btn.ghost{background:var(--paper);color:var(--ink)}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+
+/* image slots: drop a file at the path shown and it replaces the placeholder */
+.ph{position:relative;background:repeating-linear-gradient(135deg,var(--paper2) 0 12px,var(--paper) 12px 24px);border:2px solid var(--ink);overflow:hidden;display:grid;place-items:center;text-align:center;padding:14px}
+.ph .fn{font-weight:700;font-size:13px;background:var(--paper);border:2px solid var(--ink);padding:5px 10px;max-width:92%;word-break:break-all}
+.ph .fn small{display:block;font-weight:500;color:var(--mute);font-size:12px}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.ph:hover img{transform:scale(1.05)}
+
+.hero{position:relative;padding:44px 0 70px;overflow:hidden}
+.reg{position:absolute;width:34px;height:34px;pointer-events:none}
+.reg::before,.reg::after{content:"";position:absolute;background:var(--ink)}
+.reg::before{left:50%;top:0;bottom:0;width:1.5px}.reg::after{top:50%;left:0;right:0;height:1.5px}
+.reg i{position:absolute;inset:7px;border:1.5px solid var(--ink);border-radius:50%}
+.hero .reg.a{top:14px;left:12px}.hero .reg.b{top:14px;right:12px}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:end}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
+.kicker{font-weight:700;font-size:15px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px}
+.kicker b{background:var(--ink);color:var(--paper);padding:3px 10px}
+h1{font-size:clamp(40px,7vw,96px)}
+h1 .plate{display:block;position:relative}
+h1 .plate::before{content:attr(data-t);position:absolute;left:0;top:0;color:var(--red);mix-blend-mode:multiply;transform:translate(var(--dx,14px),var(--dy,9px));transition:transform .9s cubic-bezier(.2,.9,.2,1);z-index:-1;pointer-events:none}
+.registered h1 .plate::before{--dx:3px;--dy:2px}
+.lede{font-size:19px;max-width:48ch;margin:28px 0 30px}
+.cta{display:flex;flex-wrap:wrap;gap:16px}
+.trust{margin:26px 0 0;font-weight:700;font-size:15px;max-width:52ch;border-top:2px solid var(--ink);padding-top:14px}
+.stack{position:relative;aspect-ratio:3/4;max-width:400px;width:100%;margin-left:auto}
+.sheet{position:absolute;inset:0;background:var(--paper2);border:2px solid var(--ink);box-shadow:0 14px 28px -12px rgba(0,0,0,.45);transition:transform .5s cubic-bezier(.2,.9,.2,1)}
+.sheet:nth-child(1){transform:rotate(-7deg) translate(-14px,10px)}
+.sheet:nth-child(2){transform:rotate(4deg) translate(10px,4px);background:var(--paper)}
+.stack:hover .sheet:nth-child(1){transform:rotate(-12deg) translate(-34px,14px)}
+.stack:hover .sheet:nth-child(2){transform:rotate(8deg) translate(26px,6px)}
+.stack .ph{position:absolute;inset:0;transform:rotate(-1deg);box-shadow:6px 6px 0 var(--red)}
+.tag{position:absolute;left:-6px;bottom:22px;z-index:3;background:var(--red);color:#fff;font:700 14px "Archivo";padding:7px 14px;border:2px solid var(--ink);transform:rotate(-3deg)}
+
+.ticker{border-block:2px solid var(--ink);background:var(--ink);color:var(--paper);overflow:hidden;white-space:nowrap}
+.ticker div{display:inline-block;padding:13px 0;animation:tick 40s linear infinite;font-family:"Archivo Black";font-size:20px}
+.ticker span{margin:0 22px}.ticker em{font-style:normal;color:var(--red)}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+section{padding:84px 0}
+.sh{margin-bottom:40px;max-width:760px}
+.sh h2{font-size:clamp(36px,6.5vw,76px);border-left:12px solid var(--red);padding-left:18px}
+.sh p{margin:16px 0 0 30px;color:var(--mute);max-width:56ch}
+
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.card{position:relative;overflow:hidden;border:2px solid var(--ink);background:var(--paper);display:flex;flex-direction:column;isolation:isolate;transition:transform .3s,box-shadow .3s;grid-column:span 6}
+.card .ph{border:0;border-bottom:2px solid var(--ink);aspect-ratio:16/10}
+.card .body{padding:24px 26px 26px;flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:16px}
+.card::before{content:"";position:absolute;left:var(--x,85%);top:var(--y,90%);width:10px;height:10px;border-radius:50%;background:var(--red);transform:translate(-50%,-50%) scale(0);transition:transform .7s cubic-bezier(.3,.7,.2,1);z-index:-1}
+.card:hover::before{transform:translate(-50%,-50%) scale(80)}
+.card:hover{color:#fff;transform:translate(-3px,-3px);box-shadow:6px 6px 0 var(--ink)}
+.card:hover .meta{color:#fff}
+.card h3{font-size:28px;margin-bottom:10px}
+.card p{margin:0}
+.meta{font-weight:700;font-size:14px;color:var(--mute);transition:color .3s}
+@media(max-width:760px){.card{grid-column:span 12}}
+.also{margin-top:34px;display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:2px solid var(--ink);padding:8px 16px;font-weight:700;font-size:15px;background:var(--paper);transition:transform .15s,background .15s,color .15s}
+.chip:hover{background:var(--ink);color:var(--paper);transform:rotate(-2deg)}
+
+/* gallery */
+.work{background:var(--paper2);border-block:2px solid var(--ink)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
+.filters button{font:700 15px "Archivo";padding:9px 18px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--ink);transition:transform .1s,box-shadow .1s;min-height:44px}
+.filters button:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--ink)}
+.filters button[aria-pressed="true"]{background:var(--red);color:#fff}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:900px){.tiles{grid-template-columns:repeat(2,1fr)}}
+.tile{margin:0;position:relative;transition:transform .3s}
+.tile .ph{aspect-ratio:1}
+.tile.tall .ph{aspect-ratio:1/1.25}
+.tile:nth-child(even){transform:rotate(1.2deg)}.tile:nth-child(odd){transform:rotate(-1.2deg)}
+.tile:hover{transform:rotate(0) scale(1.03);z-index:2}
+.tile figcaption{position:absolute;left:10px;bottom:10px;z-index:2;background:var(--paper);border:2px solid var(--ink);padding:3px 10px;font-weight:700;font-size:14px}
+.tile[hidden]{display:none}
+.note{margin-top:24px;color:var(--mute);font-size:15px;max-width:70ch}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+@media(max-width:860px){.split{grid-template-columns:1fr}}
+.split .ph{aspect-ratio:4/3;box-shadow:8px 8px 0 var(--red)}
+.split p{margin:0 0 16px;max-width:54ch}
+.list{list-style:none;padding:0;margin:20px 0 0}
+.list li{padding:11px 0;border-top:2px solid var(--ink);font-weight:700}
+.list li:last-child{border-bottom:2px solid var(--ink)}
+.list li span{display:block;font-weight:400;color:var(--mute);font-size:15px}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);border:2px solid var(--ink)}
+@media(max-width:860px){.steps{grid-template-columns:1fr 1fr}}
+.step{padding:24px 20px;border-right:2px solid var(--ink)}
+.step:last-child{border-right:0}
+.step .n{font:400 54px "Archivo Black";color:var(--red);line-height:1}
+.step h3{font-size:22px;margin:10px 0 8px}.step p{margin:0;font-size:15px;color:var(--mute)}
+@media(max-width:860px){.step:nth-child(2){border-right:0}.step:nth-child(-n+2){border-bottom:2px solid var(--ink)}}
+
+.contact{background:var(--red);color:#fff;border-top:2px solid var(--ink)}
+.contact h2{font-size:clamp(40px,8vw,104px);margin-bottom:34px}
+.cgrid{display:grid;grid-template-columns:1.1fr .9fr;gap:36px}
+@media(max-width:860px){.cgrid{grid-template-columns:1fr}}
+.phones{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
+@media(max-width:480px){.phones{grid-template-columns:1fr}}
+.phones a{background:var(--paper);color:var(--ink);border:2px solid var(--ink);padding:14px 16px;text-decoration:none;font:700 19px "Archivo";box-shadow:4px 4px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+.phones a:active{transform:translate(4px,4px);box-shadow:0 0 0 var(--ink)}
+.contact .btn{background:var(--ink);color:#fff;box-shadow:5px 5px 0 #fff}
+.contact .btn:hover{box-shadow:7px 7px 0 #fff}.contact .btn:active{box-shadow:0 0 0 #fff}
+.contact .btn.ghost{background:var(--paper);color:#0e0e0e}
+address{font-style:normal;font-size:21px;font-weight:500;line-height:1.4}
+footer{padding:22px 0 30px;font-size:14px;color:var(--mute);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+<a class="logo" href="#top"><span class="seal">GG</span>Great Grace<br>Digital Solutions</a>
+<nav><a href="#services">Services</a><a href="#work">Our work</a><a href="#about">Computer help</a><a href="#process">How it works</a><a href="#contact">Contact</a></nav>
+<a class="btn" style="padding:10px 16px;min-height:42px;font-size:14px" href="https://wa.me/2348164283015?text=Hello%2C%20I%20want%20to%20make%20an%20enquiry.">Make an enquiry</a>
+</div></header>
+
+<main id="top">
+<div class="hero" id="hero">
+<span class="reg a"><i></i></span><span class="reg b"><i></i></span>
+<div class="wrap hero-grid">
+<div>
+<div class="kicker"><b>Folatire, Oyo Town</b>Printing, graphic design and computer services</div>
+<h1><span class="plate" data-t="Print it right.">Print it right.</span><span class="plate" data-t="Right here in Oyo.">Right here in Oyo.</span></h1>
+<p class="lede">Printing, design and computer services in Folatire, Oyo Town. Message us on WhatsApp, even if you have no design. We can design it for you.</p>
+<div class="cta"><a class="btn" href="https://wa.me/2348164283015?text=Hello%2C%20I%20want%20to%20make%20an%20enquiry.">Message Us on WhatsApp</a><a class="btn ghost" href="#services">See What We Print</a></div>
+<p class="trust">Opposite Molab Filling Station, Folatire, Oyo Town · We deliver anywhere in Nigeria</p>
+</div>
+<div class="stack"><div class="sheet"></div><div class="sheet"></div>
+<figure class="ph" style="margin:0"><img src="images/hero.jpg" alt="Large format printer producing a colourful banner" onerror="this.remove()"><div class="fn">images/hero.jpg<small>Large printer or finished print</small></div></figure>
+<span class="tag">Now printing custom T-shirts</span></div>
+</div></div>
+
+<div class="ticker" aria-hidden="true"><div>
+<span>Digital printing</span><em>●</em><span>Large format</span><em>●</em><span>DTF custom clothing</span><em>●</em><span>Graphic design</span><em>●</em><span>Typesetting</span><em>●</em><span>Photocopying</span><em>●</em><span>Registrations</span><em>●</em><span>Computer sales &amp; repairs</span><em>●</em>
+<span>Digital printing</span><em>●</em><span>Large format</span><em>●</em><span>DTF custom clothing</span><em>●</em><span>Graphic design</span><em>●</em><span>Typesetting</span><em>●</em><span>Photocopying</span><em>●</em><span>Registrations</span><em>●</em><span>Computer sales &amp; repairs</span><em>●</em>
+</div></div>
+
+<section id="services"><div class="wrap">
+<div class="sh"><h2>What we print</h2><p>Flyers to flex banners, one T-shirt to a full team. Everything is printed here in Oyo Town.</p></div>
+<div class="grid">
+<article class="card"><figure class="ph" style="margin:0"><img src="images/digital-printing.jpg" alt="Brochures, booklets and business cards" onerror="this.remove()"><div class="fn">images/digital-printing.jpg<small>Brochures, booklets, cards</small></div></figure><div class="body"><div><h3>Digital printing</h3><p>Flyers, business cards, brochures, booklets, invitations, magazines and yearbooks. Clear text, bright colours and neat cutting. Good for shop openings, church programmes, school work and weddings.</p></div><div class="meta">Flyers · Business cards · Brochures · Booklets · Invitations</div></div></article>
+<article class="card"><figure class="ph" style="margin:0"><img src="images/large-format.jpg" alt="Flex banner and roll-up banner" onerror="this.remove()"><div class="fn">images/large-format.jpg<small>Banner, flex, poster</small></div></figure><div class="body"><div><h3>Large format</h3><p>Flex banners, roll-up stands, posters and stickers. Big and bright, easy to see from the road. Great for your shop, event or campaign.</p></div><div class="meta">Flex banners · Roll-up stands · Posters · Stickers</div></div></article>
+<article class="card"><figure class="ph" style="margin:0"><img src="images/dtf-tshirt.jpg" alt="Custom printed T-shirt" onerror="this.remove()"><div class="fn">images/dtf-tshirt.jpg<small>DTF printed T-shirt</small></div></figure><div class="body"><div><h3>DTF custom clothing</h3><p>T-shirts, uniforms, caps and event wear. Order one piece or a whole team. Colours stay bright and prints hold up after washing.</p></div><div class="meta">FYB shirts · Association wear · Staff uniforms · Family events</div></div></article>
+<article class="card"><figure class="ph" style="margin:0"><img src="images/graphic-design.jpg" alt="Designer working on a layout" onerror="this.remove()"><div class="fn">images/graphic-design.jpg<small>Design on screen</small></div></figure><div class="body"><div><h3>Graphic design &amp; typesetting</h3><p>No design? We will make one for you. Logos, flyers, invitations, project layouts and book typesetting. Just tell us what you want.</p></div><div class="meta">Logos · Flyers · Project layouts · Typesetting</div></div></article>
+</div>
+<div class="also"><span class="chip">Plastic ID cards for schools, churches and associations</span><span class="chip">Plaques and awards</span><span class="chip">Picture framing</span><span class="chip">Yearbooks and publishing</span><span class="chip">Photocopying</span><span class="chip">Passport photos</span></div>
+</div></section>
+
+<section class="work" id="work"><div class="wrap">
+<div class="sh"><h2>Our work</h2><p>A look at jobs we have printed. Tap a category to filter.</p></div>
+<div class="filters" role="group" aria-label="Filter our work">
+<button aria-pressed="true" data-f="all">All</button><button aria-pressed="false" data-f="paper">Paper prints</button><button aria-pressed="false" data-f="large">Large format</button><button aria-pressed="false" data-f="apparel">Custom clothing</button>
+</div>
+<div class="tiles">
+<figure class="tile" data-c="large"><div class="ph"><img src="images/work-1.jpg" alt="" onerror="this.remove()"><div class="fn">images/work-1.jpg</div></div><figcaption>Flex banner</figcaption></figure>
+<figure class="tile tall" data-c="apparel"><div class="ph"><img src="images/work-2.jpg" alt="" onerror="this.remove()"><div class="fn">images/work-2.jpg</div></div><figcaption>DTF T-shirt</figcaption></figure>
+<figure class="tile" data-c="paper"><div class="ph"><img src="images/work-3.jpg" alt="" onerror="this.remove()"><div class="fn">images/work-3.jpg</div></div><figcaption>Business cards</figcaption></figure>
+<figure class="tile tall" data-c="large"><div class="ph"><img src="images/work-4.jpg" alt="" onerror="this.remove()"><div class="fn">images/work-4.jpg</div></div><figcaption>Roll-up banner</figcaption></figure>
+<figure class="tile" data-c="paper"><div class="ph"><img src="images/work-5.jpg" alt="" onerror="this.remove()"><div class="fn">images/work-5.jpg</div></div><figcaption>Invitation cards</figcaption></figure>
+<figure class="tile" data-c="apparel"><div class="ph"><img src="images/work-6.jpg" alt="" onerror="this.remove()"><div class="fn">images/work-6.jpg</div></div><figcaption>Team wear</figcaption></figure>
+<figure class="tile" data-c="paper"><div class="ph"><img src="images/work-7.jpg" alt="" onerror="this.remove()"><div class="fn">images/work-7.jpg</div></div><figcaption>Yearbook</figcaption></figure>
+<figure class="tile" data-c="large"><div class="ph"><img src="images/work-8.jpg" alt="" onerror="this.remove()"><div class="fn">images/work-8.jpg</div></div><figcaption>Stickers</figcaption></figure>
+</div>
+<p class="note">To add a photo, save it in an images folder next to this file with the exact file name shown in each box.</p>
+</div></section>
+
+<section id="about"><div class="wrap split">
+<figure class="ph" style="margin:0"><img src="images/shop-front.jpg" alt="Great Grace Digital Solutions shop front" onerror="this.remove()"><div class="fn">images/shop-front.jpg<small>Shop front or team photo</small></div></figure>
+<div>
+<div class="sh" style="margin-bottom:24px"><h2 style="font-size:clamp(28px,4vw,46px);line-height:1.05">Need help with an online form? We’ll sit with you and do it right.</h2></div>
+<p>Online forms can be confusing, and one wrong entry can cost you. We help students and individuals with registrations and applications, including WAEC, NECO and CAC, and we print what you need after.</p>
+<ul class="list"><li>Online registration and application support<span>We guide you step by step, or do it with you.</span></li><li>Computers, printers and accessories<span>Honest advice on what fits your budget and work.</span></li><li>Repairs and tech support<span>Slow laptop, faulty printer, or a system that won’t start? Bring it to Folatire.</span></li></ul>
+</div></div></section>
+
+<section id="process" style="padding-top:0"><div class="wrap">
+<div class="sh"><h2>How to order</h2><p>Not sure what you need? Just ask. Messaging us is free.</p></div>
+<div class="steps">
+<div class="step"><div class="n">1</div><h3>Tell us what you need</h3><p>Message us on WhatsApp with what you want, how many, and when you need it. Have a design? Send it. No design? We will make one.</p></div>
+<div class="step"><div class="n">2</div><h3>Agree the details</h3><p>We talk with you about the design, size and cost. Then we start the job.</p></div>
+<div class="step"><div class="n">3</div><h3>We print</h3><p>We print it here in the shop and tell you when it is ready.</p></div>
+<div class="step"><div class="n">4</div><h3>Pick up or delivery</h3><p>Collect in Folatire, Oyo Town, or we deliver to you anywhere in Nigeria. Checked and neatly finished before it leaves.</p></div>
+</div></div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+<h2>Ready to print?<br>Send us a message.</h2>
+<div class="cgrid"><div>
+<p style="font-size:19px;max-width:44ch;margin:0 0 20px">Tell us what you need on WhatsApp. We will reply and tell you how we can help and what it costs.</p><address>Great Grace Digital Solutions<br>Opposite Molab Filling Station,<br>Folatire, Oyo Town, Nigeria</address>
+<div class="phones"><a href="tel:+2348164283015">0816 428 3015</a><a href="tel:+2348148956056">0814 895 6056</a></div></div>
+<div style="display:flex;flex-direction:column;gap:18px;align-items:flex-start;justify-content:flex-end">
+<a class="btn" href="https://wa.me/2348164283015?text=Hello%2C%20I%20want%20to%20make%20an%20enquiry.">Chat on WhatsApp: 0816 428 3015</a>
+<a class="btn ghost" href="https://wa.me/2348148956056?text=Hello%2C%20I%20want%20to%20make%20an%20enquiry.">Or WhatsApp: 0814 895 6056</a>
+<a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Molab+Filling+Station+Folatire+Oyo" target="_blank" rel="noopener">Open in Maps</a></div></div>
+</div></section>
+</main>
+<div class="wrap"><footer><span>© 2026 Great Grace Digital Solutions</span><span>Printing · Design · Computer services</span></footer></div>
+
+<script>
+requestAnimationFrame(()=>setTimeout(()=>document.getElementById('hero').classList.add('registered'),350));
+const h=document.getElementById('hero');
+h.addEventListener('pointermove',e=>{const r=h.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+h.querySelectorAll('.plate').forEach(p=>{p.style.setProperty('--dx',(3+x*10)+'px');p.style.setProperty('--dy',(2+y*8)+'px')})});
+h.addEventListener('pointerleave',()=>h.querySelectorAll('.plate').forEach(p=>{p.style.removeProperty('--dx');p.style.removeProperty('--dy')}));
+document.querySelectorAll('.card').forEach(c=>c.addEventListener('pointerenter',e=>{const r=c.getBoundingClientRect();
+c.style.setProperty('--x',((e.clientX-r.left)/r.width*100)+'%');c.style.setProperty('--y',((e.clientY-r.top)/r.height*100)+'%')}));
+const fb=document.querySelectorAll('.filters button');
+fb.forEach(b=>b.addEventListener('click',()=>{fb.forEach(x=>x.setAttribute('aria-pressed',x===b));
+document.querySelectorAll('.tile').forEach(t=>t.hidden=b.dataset.f!=='all'&&t.dataset.c!==b.dataset.f)}));
+</script>
+</body>
+</html>
