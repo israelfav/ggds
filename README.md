@@ -34,6 +34,16 @@ sorry, i meant #600 for soft binding
 [2:33 PM, 11/19/2026] +234 806 698 6324: Ah...
 [2:37 PM, 11/19/2026] Great Grace Digital Solutions: Our price is affordable compared to other places ma
 [2:38 PM, 11/19/2026] Great Grace Digital Solutions: And you'll get the best quality
+
+
+
+[1:56 PM, 11/19/2026] +234 810 613 1083: Good afternoon
+[1:56 PM, 11/19/2026] +234 810 613 1083: How soon can I get an accracylic frame
+[1:57 PM, 11/19/2026] Great Grace Digital Solutions: what size
+[1:58 PM, 11/19/2026] +234 810 613 1083: How much is 10/12 & 12/16
+[1:59 PM, 11/19/2026] +234 810 613 1083: Text pls
+[1:59 PM, 11/19/2026] Great Grace Digital Solutions: ok on it ma
+[2:35 PM, 11/19/2026] Great Grace Digital Solutions: 12k per one
 [2:40 PM, 11/19/2026] +234 806 698 6324: The amount I saw on your ad is lesser than what you are giving me now
 [2:40 PM, 11/19/2026] +234 806 698 6324: How much will 50 and 100 cost for both hard and soft respectively?
 [2:42 PM, 11/19/2026] Great Grace Digital Solutions: The amount I saw on your ad is lesser than what you are giving me now
