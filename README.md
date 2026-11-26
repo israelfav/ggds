@@ -50,3 +50,6 @@ sorry, i meant #600 for soft binding
 i'm sorry ma, but we didn't add any prices on the ads
 [2:43 PM, 11/19/2026] +234 806 698 6324: Are you not great grace? 
 In Oyo?
+
+
+https://web.facebook.com/profile.php?id=100093850982542
